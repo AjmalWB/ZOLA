@@ -1,0 +1,115 @@
+html, body{
+    overflow-x:hidden;
+}
+
+*main{
+    overflow: hidden;
+}
+.s1{
+    background-color: rgb(247, 239, 239);
+    padding: 30px;
+
+  
+}
+.btns{
+    padding-top: 20px;
+    /* padding-left: 80px; */
+    display: flex;
+
+    justify-content: end;
+    ma
+}
+.s2{
+    background-color: rgb(132, 175, 239);
+    text-align: center;
+    align-items: center;
+   
+    padding: 30px;
+    padding-top: 100px;
+
+}
+
+.inbox-2{
+    min-width: 100%;
+    text-align: center;
+   
+}
+
+.box1{
+    min-width: 200px;
+    padding: 50px;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+.s4{
+    background-color: steelblue;
+    min-height: 500px;
+}
+.inbox-1{
+    text-align: center;
+    color: white;
+}
+.hrr{
+    color: rgb(245, 217, 212);
+    text-align: center;
+    margin-left: 43%;
+}
+.bx{
+    background-color: white;
+    width: 300px;
+    text-align: center;
+}
+.s5{
+    background-color: lightpink;
+    align-items: center;
+    min-height: 500px;
+    
+}
+
+.inbox-3{
+    padding: 30px 30px 30px 50% ;
+    width: 100%;
+}
+.uu{
+    text-decoration-color: red;
+}
+
+.s6{
+    margin: 30px;
+}
+.s66{
+    margin-left: 150px;
+}
+.s7{
+    background-color:steelblue ;
+    min-height: 300px;
+    padding: 100px;
+    text-align: center;
+}
+.s8{
+    text-align: center;
+    font-size: small;
+    padding: 25px;
+}
+
+@media(max-width:468px){
+     
+    .inbox-3{
+    padding:0 ;
+    width: 100%;
+    }
+
+    .s66{
+    margin: auto;
+    text-align: center;
+    }
+    .btns{
+        display: flex;
+        flex-direction: column;
+    }
+}
+    
+    
